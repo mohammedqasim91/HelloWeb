@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.driveClassName0org.h2.Driver
+#spring.datasource.username=sa
+#spring.datasource.password=passward
+#spring.datasource.platform=h2
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
